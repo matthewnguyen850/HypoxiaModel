@@ -13,7 +13,10 @@ Beats=16*T;                      % 16 heart beats displayed
 %Compliance and resistance parameters. Note that valve resistances are not
 %supposed to be realistic, just small enough to be negligible
 Csa = .00175;  %Systemic arterial compliance: L/mmHg, original=0.0175
-Rs = 17.28;    %Systemic resistance: mmHg/(L/min) - initial value 17.28
+
+Rs = 15.1125;    %Systemic resistance: mmHg/(L/min) - initial value 17.28
+%from https://www.sciencedirect.com/science/article/pii/0735109796002185
+
 Rmi =0.01;     %mitral valve resistance: mmHg/(L/min) - initial value 0.01
 RAo = 1;     %Aortic valve resistance: mmHg/(L/min)
 AoBkflo=0.00;   % 1/Resistance to back flow in the aortic valve
