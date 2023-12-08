@@ -1,6 +1,12 @@
 %This Model has been adapted from the MATLAB code presented in Hoppensteadt
 %and Peskin "Modling and Simulation in Medicine and the Life Sciences
 
+%BME 4409 - University of Florida
+%Cardiovascular Simulation of Aortic Stenosis during Hypoxia
+%Contributors: Matthew Nguyen, Gabe Veliz
+
+clc;clear;close all
+
 %Time parameters
 T = 0.0125;                      %Duration of heartbeat: min
 Ts = 0.0050;                     %Duration of systole: min
